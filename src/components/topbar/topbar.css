@@ -1,0 +1,22 @@
+.topbarContainer{
+    background-color: #231834;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.topbarLeft{
+    padding: 30px 50px;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+    flex: 6;
+}
+
+.topbarRight{
+    padding: 30px 50px; 
+}
+img{
+    height: 30px;
+    width: 35px;
+}
+
