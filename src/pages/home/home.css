@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto:wght@500&display=swap');
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/************************BODY SECTION************************************/
 .mainSection {
     background-image: url(./img.jpg);
     height: 92vh;
@@ -10,19 +17,18 @@
 
 .leftContent{  
    margin-left: 10%;
+   margin-right: 55%;
 }
 
 .general{
     padding-bottom: 2%;
     font-size: 40px;
     font-weight: 800;
-    font-family: 'Roboto', sans-serif;
 }
 
 .welcomeText{
     font-size: 17px;
-    letter-spacing: 2px;
-    font-family: 'Roboto', sans-serif;
+    text-align: justify;
 }
 
 .login{
@@ -30,7 +36,7 @@
     color: white;
     border-radius: 45px;
     border: none;
-    padding: 15px 70px;
+    padding: 3% 30px;
     letter-spacing: 1.5px;
-    margin-top: 70px;
+    margin-top: 25px;
 }
