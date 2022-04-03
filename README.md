@@ -1,1 +1,2 @@
-Hospital Management Web Application with React.
+# Hospital-Management-System
+Web App with React
