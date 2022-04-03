@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #231834;
+}
+
+/******************** NAVBAR ***********************************/
+.topBar{
+    display: flex;
+    padding: 40px;
+    color: white;
+    font-weight: 400;
+}
+
+.leftside{
+    flex: 3;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.rightside{
+    display: flex;
+   
+}
+
+ul{
+    flex: 3;
+}
+
+li{
+    margin: 0px 50px;
+}
+
+li:hover{
+    cursor: pointer;
+    border-bottom: #82B541 solid 0.15rem;
+}
+
+.signup{
+    color: white;
+    background-color: #82B541;
+    border-style: none;
+    padding: 5px 40px;
+    border-radius: 50px;
+    margin-left: 2rem;
+}
+
+.signup:hover{
+    cursor: pointer;
+}
+
+.menuIcon{
+    display: none;
+}
+
+/*********************BODY SECTION**********************************/
+.bodySection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.container{
+    color: white;
+    background-color: #C4C4C4;
+    -webkit-box-shadow: -5px 9px 8px 0px #000000; 
+    box-shadow: -5px 9px 8px 0px #000000;
+}
+
+.bleftside{
+    flex: 3;
+    margin-left: 10%;
+    color: white;
+}
+
+.generalText{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    color: #82B541;
+}
+
+.text1{
+    letter-spacing: 1px;
+    margin-right: 15%;
+    text-align: justify;
+    font-size: 1rem;
+    color: #C4C4C4;
+}
+
+.brightSide{
+    margin-right: 15%;
+    display: flex;
+}
+
+.username{
+    background-color: white;
+    border-style: none;
+    height: 50px;
+    width: 350px;
+    margin: 40px 40px 10px 40px;
+    padding-left: 15px;
+    color: black;
+}
+
+.password{
+    background-color: white;
+    border-style: none;
+    height: 50px;
+    width: 350px;
+    margin: 0px 40px;
+    padding-left: 15px;
+    color: black;
+}
+
+.username:focus{
+    border: none;
+}
+
+.blogin{
+    margin: 10px 10px 10px 40px;   
+    height: 50px;
+    width: 365px;
+    border:none;
+    border-radius: 10px;
+    color: white;
+}
+
+.forgetPassword{
+    text-align: center;
+    background-color: #C4C4C4;
+    color:#231834;
+}
+
+hr{
+    border-color: #231834;
+    margin: 10px 40px 10px 40px;
+}
+
+.bsignup{
+    margin: 10px 10px 30px 100px;   
+    height: 50px;
+    width: 250px;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    background-color: #82B541;
+}
+
+.playstore{
+    height: 100px;
+    width: 200px;
+}
+
+.appstore{
+    height: 100px;
+    width: 200px;
+}
+
+@media screen and (max-width: 992px) {
+    .menuIcon{
+        display: block;
+    }
+    .bodySection{
+        display: block;
+    }
+    .brightSide{
+        margin-left: 7%;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    .rightside{
+        display: none;
+    }
+  }
+
