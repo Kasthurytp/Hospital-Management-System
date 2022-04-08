@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/****************NAV BAR START*********************/
+.navbar{
+    background-color: #231834;
+}
+
+.navbar{
+    padding-top : 1rem;
+    font-size: 1.1rem;
+    padding-bottom: 1rem
+}
+
+
+.navbar-brand{
+    color: aliceblue;
+    padding-left: 2rem;
+}
+
+
+.nav-link{
+    color: white;
+}
+
+
+ul{
+    flex: 3;
+}
+
+
+li{
+    margin: 0px 50px;
+}
+
+
+.nav-link:hover{
+    color: #82B541 !important;
+    cursor: pointer;
+}
+/****************NAV BAR END***********************/
+
+/****************BODY SECTION START****************/
+.bodySection{
+    display: flex;
+}
+.leftSide{
+    flex: 4;
+}
+
+.profilePic{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.profileimg{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 100%;
+}
+
+.personalDetails{
+    margin-left: 20%;
+}
+
+.personalDetails > div{
+    padding: 1rem;
+}
+
+.middle{
+    flex: 1;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.rightSide{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+}
+
+.history{
+    font-size: 23px;
+    color: #82B541;
+    font-weight:800;
+    margin-top: 3rem;
+}
+
+.box{
+    background-color: #d5d1db;
+    width: 80%;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+/****************BODY SECTION END******************/
+
+@media screen and (max-width: 992px) {
+    .bodySection{
+        display: block;
+        margin: 0;
+    }
+
+    .personalDetails{
+        margin-left: 0%;
+    }
+
+    .personalDetails > div{
+        padding-left: 0rem;
+        text-align: center;
+    }
+
+    .rightSide{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .box{
+        background-color: #d5d1db;
+        width: 80%;
+        margin-left: 10%;
+        padding: 1rem;
+    }
+
+   
+}

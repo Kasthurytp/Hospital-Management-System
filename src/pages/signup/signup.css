@@ -15,10 +15,6 @@
     padding-left: 2rem;
 }
 
-.navbar-brand:hover{
-    color: white !important;
-}
-
 
 .nav-link{
     color: white;
@@ -34,12 +30,13 @@ li{
     margin: 0px 50px;
 }
 
+
 .nav-link:hover{
     color: #82B541 !important;
     cursor: pointer;
 }
-
 /******************** NAVBAR END***********************************/
+
 
 /*********************BODY SECTION**********************************/
 .bodySection{
@@ -68,6 +65,7 @@ li{
     font-weight: 700;
     padding-bottom: 10px;
     color: #82B541;
+    margin-top: 2rem;
 }
 
 .text1{
@@ -83,34 +81,63 @@ li{
     display: flex;
 }
 
+.nic{
+    background-color: white;
+    border-style: none;
+    height: 50px;
+    width: 80%;
+    margin: 2.5rem 2.5rem 0.1rem 2.5rem;
+    padding-left: 15px;
+    color: black;
+}
+
+
 .username{
     background-color: white;
     border-style: none;
     height: 50px;
     width: 80%;
-    margin: 2.5rem 2.5rem 0.5rem 2.5rem;
+    margin: 0.5rem 2.5rem 0.1rem 2.5rem;
     padding-left: 15px;
     color: black;
 }
 
+.phoneNumber{
+    background-color: white;
+    border-style: none;
+    height: 50px;
+    width: 80%;
+    margin: 0.5rem 2.5rem 0.1rem 2.5rem;
+    padding-left: 15px;
+    color: black;
+}
+
+.email{
+    background-color: white;
+    border-style: none;
+    height: 50px;
+    width: 80%;
+    margin: 0.5rem 2.5rem 0.1rem 2.5rem;
+    padding-left: 15px;
+    color: black;
+}
 
 .password{
     background-color: white;
     border-style: none;
     height: 50px;
     width: 80%;
-    margin: 0.5rem 2.5rem 0.5rem 2.5rem;
+    margin: 0.5rem 2.5rem 0.1rem 2.5rem;
     padding-left: 15px;
     color: black;
 }
 
-
-.username,.password:focus{
+.nic,.username,.phoneNumber,.email,.password:focus{
     outline: none;
 }
 
 
-.login{
+.bsignup{
     margin: 0.5rem 2.5rem 0.5rem 2.5rem;   
     height: 50px;
     width: 80%;
@@ -130,7 +157,7 @@ hr{
     margin: 10px 40px 10px 40px;
 }
 
-.signup{
+.blogin{
     height: 50px;
     width: 70%;
     border:none;
@@ -152,7 +179,7 @@ hr{
     width: 200px;
 }
 
-/***********************BODY SECTION END*****************************/
+/****************BODY SECTION END*******************************/
 
 @media screen and (max-width: 992px) {
     .menuIcon{
@@ -160,12 +187,19 @@ hr{
     }
     .bodySection{
         display: block;
+        margin: 0;
     }
     .brightSide{
         margin-left: 7%;
         margin-top: 4rem;
         margin-bottom: 4rem;
-        margin-right: 10%;
+        margin-right: 2%;
+    }
+    .rightside{
+        display: none;
+    }
+    .brightSide{
+        margin-right: 0%;
     }
  }
 

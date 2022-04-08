@@ -1,4 +1,4 @@
-import "./login.css"
+import "./signup.css"
 import MenuIcon from '@mui/icons-material/Menu';
 
 export default function Login() {
@@ -54,12 +54,15 @@ export default function Login() {
             </div>
             <div className="brightSide">
                 <div className="container">
-                    <input className="username" type="text" placeholder="Userename" /><br/>
+                    <input className="nic" type="text" placeholder="NIC" /><br/>
+                    <input className="username" type="text" placeholder="Username" /><br/>
+                    <input className="phoneNumber" type="text" placeholder="Phone number" /><br/>
+                    <input className="email" type="text" placeholder="Email" /><br/>
                     <input className="password" type="text" placeholder="Password" /><br/>
-                    <button className="login">Login</button><br/>
-                    <div className="forgetPassword">Forgetten password?</div>
+                    <button className="bsignup">Sign up</button><br/>
+                    <div className="forgetPassword">Have an account?</div>
                     <hr className="horizontalLine"/>
-                    <button className="signup">Signup</button>
+                    <button className="blogin">Log in</button>
                 </div>
             </div>
         </div>
