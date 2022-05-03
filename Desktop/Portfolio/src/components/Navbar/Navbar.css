@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto:wght@500&display=swap');
+body{
+	background-color: #f6f5f5;
+	margin:0px;
+	padding:0px;
+}
+
+ul{
+	list-style:none;
+}
+
+a{
+	text-decoration: none;
+}
+
+section{
+	width:100%;
+	height:95vh;
+	background-image: url('//assets/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	padding:0px 5%;
+}
+
+nav ul{
+	display: flex;
+}
+
+nav ul li a{
+	margin:30px;
+	font-family: myriad pro regular;
+	color:#505050;
+	font-size: 15px;
+	font-weight: 700;
+
+}
+
+.logo{
+	font-family: RoadTest;
+	color:#000000;
+	font-size: 22px;
+}
+
+.logo:hover{
+	color:#000000;
+	cursor: unset;
+}
+
+.menu{
+	display: none;
+}
+
+.navLink{
+	display: block;
+}
+
+
+@media only screen and (max-width: 992px){
+	nav ul{
+		display: none;
+	}
+	.menu{
+		display: block;
+		height: 20px;
+		width: 20px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	
+}

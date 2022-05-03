@@ -1,0 +1,106 @@
+.map{
+    margin-left: 6%;
+    margin-top: 1%;
+}
+
+.contactSection{
+    margin-top: 350px;
+    display: flex;
+    overflow-y: hidden;
+    margin-bottom:5%;
+}
+
+p img{
+    height: 25px;
+    width: 25px;
+    padding: 5%;
+}
+
+.social-iconsCon{
+    flex: 4;
+    margin-top: 3%;
+    margin-left: 13%;
+}
+
+.icon1{
+    display: flex;
+}
+
+.eaddress{
+    text-align: left;
+    padding-left: 55px;
+}
+
+p img{
+    margin:0px 30px 0px 0px;
+}
+
+.form{
+    flex: 9;
+}
+
+
+.contactFirst input{
+    margin: 10px 20px;
+}
+
+.contactFirst input:nth-child(1),
+.contactFirst input:nth-child(2){
+    width: 25%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(124, 124, 124);
+}
+
+.contactSecond input{
+    margin: 10px 20px;
+    padding-left: 10px;
+    width: 54%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(124, 124, 124);
+}
+
+textarea{
+    width: 54%;
+    height: 100px;
+    margin: 10px 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: rgb(124, 124, 124);
+    border-radius: 5px;
+    border: 1px solid rgb(124, 124, 124);
+}
+
+.submitButton{
+    margin: 10px 20px;
+    padding: 8px 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .contactSection{
+        display: block;
+    }
+
+    .form{
+        margin-top: 5%;
+    }
+
+    .contactFirst input:nth-child(1),
+    .contactFirst input:nth-child(2){
+         width: 74%;
+    }
+
+    .contactSecond input{
+        width: 74%;
+    }
+
+    textarea{
+        width: 74%;
+    }
+}

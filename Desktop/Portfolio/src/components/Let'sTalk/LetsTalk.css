@@ -1,0 +1,42 @@
+.contact-me{
+	height:200px;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    margin: 0% 10% 0% 10%;
+}
+
+.contact-me p{
+	color:#ffffff;
+	font-size: 30px;
+	font-family: calibri;
+	font-weight: bold;
+	border-bottom: 2px solid #ffffff;
+
+}
+
+.contact-me button{
+	width:200px;
+	height: 40px;
+	background-color: #ffffff;
+	outline: none;
+	border:none;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+@media only screen and (max-width: 992px) {
+	.contact-me{
+		height:180px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.contact-me{
+		top:320%;
+		left:10%;
+	}
+}
