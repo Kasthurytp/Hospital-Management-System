@@ -1,0 +1,152 @@
+
+/*Text container start*/
+.text-container{
+	position: absolute;
+	left:13%;
+	top:42%;
+	transform:translate(-13%,-42%);
+}
+
+.text-container p:nth-child(1){
+	font-family: calibri;
+	color: #1a1a1a;
+	font-size: 1.3rem;
+	line-height: 20px;
+}
+
+.text-container p:nth-child(2){
+	font-family: calibri;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #1a1a1a;
+	font-size: 3.75rem;
+}
+
+.text-container p:nth-child(3){
+	font-family: myriad pro regular;
+	color: #403e3e;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.text-container p:nth-child(4){
+	font-family: myriad pro regular;
+	color: #403e3e;
+	font-size: 30px;
+	line-height: 0px;
+	margin: 0;
+}
+
+.text-container p{
+	line-height: 0px;
+	margin:45px 0px 25px;
+	flex: 6;
+}
+/*Text container end*/
+
+/*Hire me and Download cv button*/
+.text-container button{
+	width: 130px;
+	height: 42px;
+	border-radius: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 14px;
+	outline: none;
+	
+	}
+	
+	.hire-btn{
+	border:2px solid #373636;
+	color:#373636;
+	position: absolute;
+	top: 120%;
+	}
+	
+	.down-cv{
+	background-color: #0b0b0b;
+	color: #ffffff;
+	border:none;
+	position: absolute;
+	top: 120%;
+	left: 35%;
+	}
+	
+	button:active{
+	transform:scale(1.1);
+	}
+
+	.button{
+		margin-top: 10%;	
+	}
+/*Button end*/
+
+/*Profile image*/
+.person-img{
+	float: right;
+	bottom:0%;
+	position: fixed;
+	left: 50%;
+}
+
+.person-img img{
+	height: 80vh;
+}
+/*Profile image end*/
+
+/*Media query*/
+@media only screen and (max-width: 992px) {
+	.text-container{
+		position: absolute;
+		left:13%;
+		top:20%;
+		transform:translate(-13%,-42%);
+	}
+	.person-img{
+		left: 30%;
+	}
+	.person-img img{
+		margin-top: 80%;
+		height: 60vh;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+	.text-container{
+		position: absolute;
+		left:13%;
+		top:25%;
+		transform:translate(-13%,-42%);
+	}
+
+	.text-container p:nth-child(2){
+		letter-spacing: 0.5px;
+		font-size: 2.5rem;
+	}
+	
+	.text-container p:nth-child(3){
+		font-size: 22px;
+		line-height: 0px;
+	}
+	
+	.text-container p:nth-child(4){
+		font-size: 22px;
+		line-height: 0px;
+		margin: 0;
+	}
+
+	.down-cv{
+		left: 48%;
+	}
+
+	.person-img img{
+		margin-top: 95%;
+		height: 50vh;
+	}
+
+	.person-img{
+		left: 0%;
+	}
+	
+}

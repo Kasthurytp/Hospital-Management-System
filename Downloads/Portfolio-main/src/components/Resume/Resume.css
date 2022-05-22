@@ -1,0 +1,104 @@
+.resumeSection{
+    margin: 0 10% 0 10%;
+    font-family: calibri;
+}
+
+.resumeSection h2{
+    text-align: center;
+    margin-top: 3%;
+    font-family: calibri;
+}
+
+.resumeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.educationContainer{
+    flex: 6;
+}
+
+.education{
+    margin-top: 6%;
+}
+
+.languageContainer{
+    flex: 6;
+    margin-right: 5%;
+    margin-left: 20%;
+}
+
+
+.point{
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    margin-left: 4%;
+    margin-top: 1%;
+    background: #fff;
+    border: 2px solid #34b7a7;
+}
+
+.resume{
+    border-left: 3px solid #34b7a7;
+    margin-left: 5%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.point2{
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    margin-left: 4%;
+    margin-top: -3%;
+    background: #fff;
+    border: 2px solid #34b7a7;
+}
+
+.resume2{
+    border-left: 3px solid #34b7a7;
+    margin-left: 5%;
+    padding-left: 20px; 
+    padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .point, .point2, .point3{
+        margin-left: 3.1%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .resumeContainer{
+        display: block;
+    }
+
+    .resumeSection h2{
+        margin-top: 5%;  
+    }
+
+    .education{
+        margin-top: 12%;
+    }
+
+    .languageContainer{
+        margin-left: 0%;
+        margin-top: 12%;
+        margin-bottom: 10%;
+    }
+
+    .point, .point2, .point3{
+        margin-left: 3.6%;
+    }
+    .point{
+        margin-top: 5%;
+    }
+    .point2, .point3{
+        margin-top: -5%;
+    }
+}

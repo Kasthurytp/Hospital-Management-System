@@ -1,0 +1,258 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Colum 1 Row1 */
+.column1 .row1{
+    height: 45vh;
+    width: 30vh;
+    margin: 2vh;
+    background-image: url(Images/pexels-cottonbro-4065885.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease 0s;
+}
+
+.column1 .row1:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.9)),url(Images/pexels-cottonbro-4065885.jpg);
+    transform: scale(1.1);
+}
+
+.content1{
+    color: aliceblue;
+    text-align: center;
+    display: none;
+}
+
+.column1 .row1:hover .content1{
+    display: block;
+}
+
+/* Colum 1 Row2 */
+.column1 .row2{
+    height: 45vh;
+    width: 30vh;
+    margin: 2vh;
+    background-image: url(Images/pexels-liza-summer-6347733.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease 0s;
+}
+
+.column1 .row2:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.9)),url(Images/pexels-liza-summer-6347733.jpg);
+    transform: scale(1.1);
+}
+
+.content2{
+    display: none;
+    text-align: center;
+    color: aliceblue;
+}
+
+.column1 .row2:hover .content2{
+    display: block;
+}
+
+/* Colum 2 Row 1 */
+.column2 .row1{
+    height: 30vh;
+    width: 30vh;
+    margin: 2vh;
+    background-image: url(Images/pexels-marek-levak-2265484.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease 0s;
+}
+
+.column2 .row1:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.9)),url(Images/pexels-marek-levak-2265484.jpg);
+    transform: scale(1.1);
+}
+
+.content3{
+    display: none;
+    text-align: center;
+    color: aliceblue;
+}
+
+.column2 .row1:hover .content3{
+    display: block;
+}
+
+/* Colum 2 Row 2 */
+
+.column2 .row2{
+    height: 30vh;
+    width: 30vh;
+    margin: 2vh;
+    background-image: url(Images/pexels-jess-bailey-designs-788946.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease 0s;
+}
+
+.column2 .row2:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.9)),url(Images/pexels-jess-bailey-designs-788946.jpg);
+    transform: scale(1.1);
+}
+
+.content4{
+    display: none;
+    text-align: center;
+    color: aliceblue;
+}
+
+.column2 .row2:hover .content4{
+    display: block;
+}
+
+/* Colum 2 row 3 */
+
+.column2 .row3{
+    height: 30vh;
+    width: 30vh;
+    margin: 2vh;
+    background-image: url(Images/pexels-j-kelly-brito-4067119.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease 0s;
+}
+
+.column2 .row3:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.9)),url(Images/pexels-j-kelly-brito-4067119.jpg);
+    transform: scale(1.1);
+}
+
+.content5{
+    display: none;
+    text-align: center;
+    color: aliceblue;
+}
+
+.column2 .row3:hover .content5{
+    display: block;
+}
+
+/* Colum 3 Row 1 */
+.column3 .row1{
+    height: 45vh;
+    width: 30vh;
+    margin: 2vh;
+    background-image: url(Images/pexels-cottonbro-3945697.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease 0s;
+}
+
+.column3 .row1:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.9)),url(Images/pexels-cottonbro-3945697.jpg);
+    transform: scale(1.1);
+}
+
+.content6{
+    display: none;
+    text-align: center;
+    color: aliceblue;
+}
+
+.column3 .row1:hover .content6{
+    display: block;
+}
+
+/* Colum 3 Row 2 */
+.column3 .row2{
+    height: 45vh;
+    width: 30vh;
+    margin: 2vh;
+    background-image: url(Images/pexels-sound-on-3756879.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease 0s;
+}
+
+.column3 .row2:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.9)),url(Images/pexels-sound-on-3756879.jpg);
+    transform: scale(1.1);
+}
+
+.content7{
+    display: none;
+    text-align: center;
+    color: aliceblue;
+}
+
+.column3 .row2:hover .content7{
+    display: block;
+}
+
+@media only screen and (max-width: 992px){
+    .body{
+        display: block;
+        margin: 0;
+        position: absolute;
+        top: 265%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .column1 .row1,
+    .column1 .row2,
+    .column2 .row1,
+    .column2 .row2,
+    .column2 .row3,
+    .column3 .row1,
+    .column3 .row2{
+        height: 60vh;
+        width: 60vh;
+    }
+
+    .portfolio-footer{
+        margin: 0;
+        position: absolute;
+        top: 500%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .body{
+        top: 190%;
+    }
+    .column1 .row1,
+    .column1 .row2,
+    .column2 .row1,
+    .column2 .row2,
+    .column2 .row3,
+    .column3 .row1,
+    .column3 .row2{
+        height: 40vh;
+        width: 40vh;
+    }
+    .portfolio-footer{
+        top: 350%;
+    }
+}
