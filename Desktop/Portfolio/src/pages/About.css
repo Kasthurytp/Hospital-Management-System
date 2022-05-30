@@ -1,3 +1,13 @@
+.Navbar{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.SmallScreenNav{
+    display: none;
+}
+
 .aboutContainer{
     margin: 0 10% 0 10%;
     font-family: calibri;
@@ -296,6 +306,14 @@ svg{
 
 
 @media only screen and (max-width: 992px) {
+    .Navbar{
+        display: none;
+    }
+    
+    .SmallScreenNav{
+        display: block;
+        z-index: 3;
+    }
     .aboutBody{
         display: block;
         margin-top: 3%;

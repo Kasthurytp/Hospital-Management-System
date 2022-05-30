@@ -1,11 +1,19 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
+import SmallScreenNav from '../Navbar/SmallScreenNav'
 import './About me.css'
 
 export default function Aboutme() {
   return (
     <div>
+        <div className='Navbar'>
+          <Navbar/>
+        </div>
+        <div className="SmallScreenNav">
+          <SmallScreenNav/>
+        </div>
         <div className='about-container'>
-            <img src="././assets/person22.png"></img>
+            <img src="https://res.cloudinary.com/do9kzlzo0/image/upload/v1652856711/Portfolio/kasthury_etsmte.jpg"></img>
             <div className='about-text'>
                 <p>About Me</p>
                 <p>Undergrauate at University Of Sri Jayewardenepura,Developer & Designer</p>

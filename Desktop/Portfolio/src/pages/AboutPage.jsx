@@ -7,10 +7,17 @@ import CountUp from 'react-countup';
 import LetsTalk from '../components/Let\'sTalk/LetsTalk';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
+import SmallScreenNav from '../components/Navbar/SmallScreenNav';
 
 export default function AboutPage() {
   return (
     <div>
+      <div className='Navbar'>
+        <Navbar/>
+      </div>
+      <div className="SmallScreenNav">
+        <SmallScreenNav/>
+      </div>
       <div className='aboutContainer'>
         <div className='heading'>
             <h2>About</h2>
@@ -24,7 +31,7 @@ export default function AboutPage() {
         <div className='aboutBody'>
             <Zoom>
               <div className='personImage'>
-                  <img src='/assets/kasthury.jpg'></img>
+                  <img src='https://res.cloudinary.com/do9kzlzo0/image/upload/v1652856711/Portfolio/kasthury_etsmte.jpg'></img>
               </div>
               </Zoom>
             <Fade right duration={1000}>

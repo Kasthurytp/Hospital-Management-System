@@ -56,10 +56,6 @@ nav ul li a{
 	cursor: unset;
 }
 
-.menu{
-	display: none;
-}
-
 .navLink{
 	display: block;
 }

@@ -3,10 +3,18 @@ import React from 'react'
 import StarRatingEnglish from '../Rating/RatingEnglish'
 import StarRatingTamil from '../Rating/RatingTamil'
 import Fade from 'react-reveal/Fade';
+import Navbar from '../Navbar/Navbar';
+import SmallScreenNav from '../Navbar/SmallScreenNav';
 
 export default function ResumeComp() { 
   return (
     <div>
+        <div className='Navbar'>
+          <Navbar/>
+        </div>
+        <div className="SmallScreenNav">
+          <SmallScreenNav/>
+        </div>
         <div className='resumeSection'>
               <h2>Resume</h2><hr></hr>
               <div className='resumeContainer'>

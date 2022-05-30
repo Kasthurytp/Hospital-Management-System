@@ -6,7 +6,6 @@ import ContactPage from './pages/ContactPage';
 import PortfolioPage from './pages/PortfolioPage';
 import BlogPage from './pages/BlogPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavbarComp from './components/Navbar/Navbar';
 import HomePage from './pages/HomePage';
 import ResumePage from './pages/ResumePage';
 import ServicesPage from './pages/ServicesPage';
@@ -16,9 +15,8 @@ function App() {
   return (
     <BrowserRouter>
     <div>
-        <NavbarComp/>
         <Switch>
-         <Route path="/" component={HomePage} exact/>
+         <Route path="/Portfolio" component={HomePage} exact/>
        </Switch>
        <Switch>
          <Route path="/About" component={AboutPage} exact/>
@@ -36,7 +34,7 @@ function App() {
          <Route path="/Contact" component={ContactPage} exact/>
        </Switch>
        <Switch>
-         <Route path="/Portfolio" component={PortfolioPage} exact/>
+         <Route path="/PortfolioPage" component={PortfolioPage} exact/>
        </Switch>
     </div> 
   </BrowserRouter>

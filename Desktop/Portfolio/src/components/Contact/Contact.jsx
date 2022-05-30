@@ -2,12 +2,20 @@ import React from 'react'
 import './Contact.css'
 import { Component } from 'react';
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+import SmallScreenNav from '../Navbar/SmallScreenNav';
+import Navbar from '../Navbar/Navbar';
 
 
 class ContactComp extends Component {
     render(){
   return (
     <div>
+      <div className='Navbar'>
+        <Navbar/>
+      </div>
+      <div className="SmallScreenNav">
+        <SmallScreenNav/>
+      </div>
       <div className='aboutContainer'>
         <div className='heading'>
             <h2>Contact</h2>
@@ -29,19 +37,19 @@ class ContactComp extends Component {
                 <div className='contactSection'>
                       <div class="social-iconsCon">
                         <div className='icon1'>
-                            <p><img src='././assets/location.png' class="location"></img></p>
+                            <p><img src='https://res.cloudinary.com/do9kzlzo0/image/upload/v1652856715/Portfolio/location_wdabdi.png' class="location"></img></p>
                             <p>Location:</p>
                         </div>
                         <p className='eaddress'> Sivan kovil road, maddvuvil north, Chavakachcheri.</p>
 
                         <div className='icon1'>
-                            <p><img src='././assets/email.png' class="email"></img></p>
+                            <p><img src='https://res.cloudinary.com/do9kzlzo0/image/upload/v1652856701/Portfolio/email_sc1iy5.png' class="email"></img></p>
                             <p>Email:</p>
                         </div>
                         <p className='eaddress'>t.kasthury66@gmail.com</p>
 
                         <div className='icon1'>
-                            <p><img src='././assets/call.png' class="call"></img></p>
+                            <p><img src='https://res.cloudinary.com/do9kzlzo0/image/upload/v1652856699/Portfolio/call_qwqyog.png' class="call"></img></p>
                             <p>Call:</p>
                         </div>
                         <p className='eaddress'>+94762875555</p>

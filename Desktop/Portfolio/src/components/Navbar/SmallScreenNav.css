@@ -1,0 +1,23 @@
+.me-auto{
+    padding-left: 20px;
+}
+
+.SmallScreenNav{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #212529;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.link1{
+    color: rgb(170, 168, 168);
+    padding-bottom: 20px;
+    padding-top: 5%;
+}
+
+.link{
+    color: rgb(170, 168, 168);
+    padding-bottom: 20px;
+}
+
